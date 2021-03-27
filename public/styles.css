@@ -13,4 +13,21 @@ h1 {
 table {
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+div {
+    background-color: white;
+    border: 2px solid;
+    padding: 20px; 
+    width: 700px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
 }
