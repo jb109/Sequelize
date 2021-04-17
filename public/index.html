@@ -6,101 +6,24 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
         <link rel="stylesheet" href="styles.css" />
         <script src="script.js"></script>
+        <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     </head>
-    <h1>Jared Brock</h1>
-    <div>
-        <h2>Meals Macros</h2>
-    <table class = "table is-bordered">
-        <thead>
-            <tr>
-              <th>meal_id</th>
-              <th>meal_name</th>
-              <th>meal_category</th>
-              <th>macro_id</th>
-              <th>calories</th>
-              <th>serving_size</th>
-              <th>cholesterol</th>
-              <th>sodium</th>
-              <th>carbs</th>
-              <th>protein</th>
-              <th>fat</th>
-            </tr>
-        </thead>
-        <tbody id="selectedMeals">
-           
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>index</th>
-                <th>meal_id</th>
-              <th>meal_name</th>
-              <th>meal_category</th>
-              <th>macro_id</th>
-              <th>calories</th>
-              <th>serving_size</th>
-              <th>cholesterol</th>
-              <th>sodium</th>
-              <th>carbs</th>
-              <th>protein</th>
-              <th>fat</th>
-            </tr>
-        </tfoot>
-    </div>
-    </table>
-    </div>
-    <div>
-        <h2>Dining Halls</h2>
-    <table class = "table is-bordered">
-        <thead>
-            <tr>
-              <th>Hall Name</th>
-              <th>Location</th>
-            </tr>
-        </thead>
-        <tbody  id="mytable">
-           
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>Hall Name</th>
-                <th>Location</th>
-            </tr>
-        </tfoot>
-    </div>
-        
 
+    <body>
+        <h1>Jared Brock</h1>
+            <div id="chartContainer" style="height: 1000px; width: 50%; position: relative; margin-left: 700px;"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </table>
+        <div class= 'dininghalls' style="height: 1000px; width: 50%; position: relative; margin-left: 700px;">
+            <h2>Dining Halls</h2>
+            <table class = "table is-bordered">
+                <thead>
+                    <tr>
+                    <th>Hall Name</th>
+                    <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody  id="mytable"></tbody>
+            </table>
+        </div>
+    </body>
+</html>
